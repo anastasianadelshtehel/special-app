@@ -1,4 +1,5 @@
 import java.time.LocalDateTime
+import kotlin.random.Random
 
 fun main(args: Array<String>) {
     println("Hello")
@@ -6,5 +7,7 @@ fun main(args: Array<String>) {
 
     fun doctavka(){
         println("выберите пункт доставки")
+        println("Дом доставки ${Random.nextInt()}")
+        println("Дом доставки ${Random.nextInt()}")
     }
 }
