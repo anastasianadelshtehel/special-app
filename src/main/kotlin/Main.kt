@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
 
     fun doctavka(){
         println("выберите пункт доставки")
-        println("Дом доставки ${Random.nextInt()}")
-        println("Дом доставки ${Random.nextInt()}")
+        val n=Random.nextInt()
+        println("Дом доставки $n")
     }
 }
